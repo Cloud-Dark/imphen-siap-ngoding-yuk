@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Facebook, Twitter, Instagram, Linkedin, GitHub } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
               <SocialIcon icon={<Facebook size={18} />} href="#" />
               <SocialIcon icon={<Twitter size={18} />} href="#" />
               <SocialIcon icon={<Instagram size={18} />} href="#" />
-              <SocialIcon icon={<GitHub size={18} />} href="#" />
+              <SocialIcon icon={<Github size={18} />} href="#" />
             </div>
           </div>
           
