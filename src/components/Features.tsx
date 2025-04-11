@@ -8,9 +8,9 @@ const Features = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <span className="bg-imphnen/10 text-imphnen dark:bg-imphnen/20 dark:text-imphnen-light px-4 py-1.5 rounded-full text-sm font-medium inline-block mb-4 animate-fade-in">Fitur</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white animate-fade-in" style={{animationDelay: '100ms'}}>Fitur Unggulan</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white animate-fade-in" style={{animationDelay: '100ms'}}>Fitur "Unggulan"</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '200ms'}}>
-            IMPHNEN hadir dengan berbagai fitur untuk membantu kamu menjadi programmer handal tanpa harus pusing dengan coding.
+            IMPHNEN hadir dengan berbagai fitur untuk membantu kamu menjadi programmer yang malas dan enggan menyentuh kode!
           </p>
         </div>
 
@@ -18,19 +18,19 @@ const Features = () => {
           <FeatureCard
             icon={<Code className="w-12 h-12 text-imphnen dark:text-imphnen-light" />}
             title="Belajar Tanpa Koding"
-            description="Pelajari konsep programming dengan cara yang mudah dipahami tanpa harus menulis kode yang rumit."
+            description="Kenapa capek-capek nulis kode? Di sini kamu bisa jadi programmer cuma dengan nonton tutorial tanpa pernah praktek!"
             index={0}
           />
           <FeatureCard
             icon={<Users className="w-12 h-12 text-imphnen dark:text-imphnen-light" />}
-            title="Komunitas Supportif"
-            description="Bergabunglah dengan komunitas programmer Indonesia yang siap membantu dan berbagi pengalaman."
+            title="Komunitas Anti-Bantuan"
+            description="Bertanya di forum kami dan rasakan sensasi diabaikan atau mendapat jawaban yang lebih membingungkan daripada masalahmu!"
             index={1}
           />
           <FeatureCard
             icon={<BookOpen className="w-12 h-12 text-imphnen dark:text-imphnen-light" />}
-            title="Tutorial Interaktif"
-            description="Akses tutorial interaktif yang membuat konsep pemrograman sulit menjadi mudah dipahami."
+            title="Tutorial Bikin Pusing"
+            description="Tutorial kami dijamin membuat konsep pemrograman yang sederhana menjadi terasa seperti fisika kuantum!"
             index={2}
           />
         </div>

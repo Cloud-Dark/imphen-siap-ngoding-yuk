@@ -5,38 +5,38 @@ import { Code2, Terminal, Palette, Globe, Database, Search } from "lucide-react"
 const toolsData = [
   {
     icon: <Code2 className="w-8 h-8 text-blue-500 dark:text-blue-400" />,
-    name: "Visual Studio Code",
-    description: "Editor kode yang lengkap dengan fitur integrasi Git, debugging, dan ekstensi.",
+    name: "Visual Studio Berat",
+    description: "Editor kode yang dijamin bikin laptopmu kepanasan dan kipas menderu seperti pesawat jet.",
     color: "blue"
   },
   {
     icon: <Terminal className="w-8 h-8 text-green-500 dark:text-green-400" />,
-    name: "Git & GitHub",
-    description: "Tools untuk version control dan kolaborasi dalam pengembangan proyek.",
+    name: "Git & Pusing",
+    description: "Tool yang bikin kamu bingung dengan pesan error 'merge conflict' dan membuat proyekmu hancur.",
     color: "green"
   },
   {
     icon: <Globe className="w-8 h-8 text-purple-500 dark:text-purple-400" />,
-    name: "Browser Dev Tools",
-    description: "Alat debugging bawaan browser untuk pengembangan web yang lebih mudah.",
+    name: "Browser Bug Tools",
+    description: "Alat debugging yang malah bikin tambah bingung dengan ratusan tab dan error yang tak terpecahkan.",
     color: "purple"
   },
   {
     icon: <Palette className="w-8 h-8 text-orange-500 dark:text-orange-400" />,
-    name: "Figma",
-    description: "Platform desain UI/UX untuk membuat prototipe dan desain yang responsif.",
+    name: "Figma Ribet",
+    description: "Platform desain UI/UX yang membuatmu menyadari kamu tidak punya jiwa seni sama sekali.",
     color: "orange"
   },
   {
     icon: <Database className="w-8 h-8 text-red-500 dark:text-red-400" />,
-    name: "MySQL Workbench",
-    description: "Tools untuk mengelola database MySQL dengan tampilan visual.",
+    name: "MySQL Workbantai",
+    description: "Tools untuk mengelola database yang sesekali menghapus semua datamu tanpa peringatan.",
     color: "red"
   },
   {
     icon: <Search className="w-8 h-8 text-indigo-500 dark:text-indigo-400" />,
-    name: "Postman",
-    description: "Aplikasi untuk testing API dengan antarmuka yang user-friendly.",
+    name: "Postman Pelit",
+    description: "Aplikasi testing API dengan fitur premium yang selalu kamu butuhkan tapi tidak bisa kamu akses.",
     color: "indigo"
   },
 ];
@@ -47,9 +47,9 @@ const Tools = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <span className="bg-imphnen/10 text-imphnen dark:bg-imphnen/20 dark:text-imphnen-light px-4 py-1.5 rounded-full text-sm font-medium inline-block mb-4">Toolkit</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Tools Programmer</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Tools Perusak Mood</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Kenali berbagai tools yang sering digunakan programmer profesional untuk meningkatkan produktivitas.
+            Kenali berbagai tools yang sering bikin programmer profesional pengen banting laptop dan beralih profesi.
           </p>
         </div>
 

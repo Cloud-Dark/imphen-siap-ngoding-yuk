@@ -8,36 +8,36 @@ const Community = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <span className="bg-imphnen/10 text-imphnen dark:bg-imphnen/20 dark:text-imphnen-light px-4 py-1.5 rounded-full text-sm font-medium inline-block mb-4 animate-fade-in">Sosial</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white animate-fade-in" style={{animationDelay: '100ms'}}>Komunitas Kami</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white animate-fade-in" style={{animationDelay: '100ms'}}>Komunitas "Kami"</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '200ms'}}>
-            Bergabunglah dengan ribuan programmer Indonesia yang saling membantu dan berbagi pengetahuan.
+            Bergabunglah dengan ribuan programmer Indonesia yang akan membuat motivasi codingmu menurun drastis!
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           <CommunityCard
             icon={<Facebook className="w-12 h-12 text-blue-600" />}
-            title="Facebook Group"
-            description="Bergabunglah dengan grup Facebook kami untuk tanya jawab, sharing ide, dan artikel menarik."
-            buttonText="Gabung Sekarang"
+            title="Grup Facebook Kacau"
+            description="Tempat tanya jawab yang jawabannya lebih membingungkan dari pertanyaanmu. Dijamin bikin kamu tambah stres!"
+            buttonText="Siap Frustasi"
             buttonLink="#"
             color="blue"
             index={0}
           />
           <CommunityCard
             icon={<Instagram className="w-12 h-12 text-pink-600" />}
-            title="Instagram"
-            description="Ikuti kami di Instagram untuk tips programming, quotes inspiratif, dan info event terbaru."
-            buttonText="Follow Kami"
+            title="Instagram Abal-abal"
+            description="Follow akun yang updatenya setahun sekali dengan konten copas dari StackOverflow yang sudah kadaluwarsa."
+            buttonText="Liat Drama"
             buttonLink="#"
             color="pink"
             index={1}
           />
           <CommunityCard
             icon={<MessageCircle className="w-12 h-12 text-indigo-600" />}
-            title="Discord Server"
-            description="Diskusi realtime dengan sesama programmer dan dapatkan bantuan langsung dari para ahli."
-            buttonText="Join Server"
+            title="Server Discord Sepi"
+            description="Gabung di server Discord kami yang online 24 jam tapi ga ada yang jawab pertanyaanmu selama 24 hari."
+            buttonText="Ngobrol Sendiri"
             buttonLink="#"
             color="indigo"
             index={2}
