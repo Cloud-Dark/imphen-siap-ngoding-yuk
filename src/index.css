@@ -93,7 +93,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-nunito;
+    @apply bg-background text-foreground font-nunito scroll-smooth;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
@@ -104,11 +104,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-imphnen text-white px-6 py-3 rounded-full font-bold hover:bg-imphnen-dark transition-all duration-300 shadow-soft hover:shadow-soft-lg;
+    @apply bg-imphnen text-white px-6 py-3 rounded-full font-bold hover:bg-imphnen-dark transition-all duration-300 shadow-soft hover:shadow-soft-lg dark:bg-imphnen-light dark:text-gray-900 dark:hover:bg-white;
   }
   
   .btn-secondary {
-    @apply bg-white text-imphnen px-6 py-3 rounded-full font-bold hover:bg-imphnen-light transition-all duration-300 border border-imphnen shadow-soft hover:shadow-soft-lg;
+    @apply bg-white text-imphnen px-6 py-3 rounded-full font-bold hover:bg-imphnen-light transition-all duration-300 border border-imphnen shadow-soft hover:shadow-soft-lg dark:bg-transparent dark:text-white dark:border-white/30 dark:hover:bg-white/10;
   }
 
   .section-container {
@@ -120,6 +120,37 @@
   }
 
   .feature-card {
-    @apply bg-white rounded-2xl p-6 shadow-soft card-hover;
+    @apply bg-white rounded-2xl p-6 shadow-soft card-hover dark:bg-gray-800 dark:shadow-none dark:border dark:border-gray-700;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 }
