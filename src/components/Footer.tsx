@@ -4,14 +4,16 @@ import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-white dark:bg-gray-900 pt-16 pb-8 border-t border-gray-100 dark:border-gray-800">
+    <footer className="bg-white dark:bg-gray-900 pt-12 pb-8 border-t border-gray-100 dark:border-gray-800">
       <div className="section-container">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="animate-fade-in" style={{animationDelay: '100ms'}}>
             <h3 className="text-xl font-bold text-imphnen dark:text-imphnen-light mb-4">IMPHNEN</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Komunitas programmer Indonesia yang bertujuan membantu semua orang belajar programming dengan cara yang menyenangkan.
+              Kelompok kece yang bikin programming jadi nggak bikin pusing! Kita ngoding sambil senyum, debug sambil ketawa~
             </p>
             <div className="flex space-x-4">
               <SocialIcon icon={<Facebook size={18} />} href="#" />
@@ -23,31 +25,31 @@ const Footer = () => {
           </div>
           
           <div className="animate-fade-in" style={{animationDelay: '200ms'}}>
-            <h4 className="font-bold mb-4 dark:text-white">Tautan Cepat</h4>
+            <h4 className="font-bold mb-4 dark:text-white">Menu Kilat</h4>
             <ul className="space-y-2">
-              <FooterLink href="#features">Fitur</FooterLink>
-              <FooterLink href="#community">Komunitas</FooterLink>
-              <FooterLink href="#resources">Sumber Belajar</FooterLink>
-              <FooterLink href="#events">Event</FooterLink>
-              <FooterLink href="#tools">Tools</FooterLink>
-              <FooterLink href="#faq">FAQ</FooterLink>
+              <FooterLink href="#features">Fitur Keren</FooterLink>
+              <FooterLink href="#community">Geng Squad</FooterLink>
+              <FooterLink href="#resources">Bahan Belajar</FooterLink>
+              <FooterLink href="#events">Acara Seru</FooterLink>
+              <FooterLink href="#tools">Perkakas</FooterLink>
+              <FooterLink href="#faq">Tanya-Jawab</FooterLink>
             </ul>
           </div>
           
           <div className="animate-fade-in" style={{animationDelay: '300ms'}}>
-            <h4 className="font-bold mb-4 dark:text-white">Sumber Belajar</h4>
+            <h4 className="font-bold mb-4 dark:text-white">Racikan Ilmu</h4>
             <ul className="space-y-2">
-              <FooterLink href="#">Video Tutorial</FooterLink>
-              <FooterLink href="#">Artikel</FooterLink>
-              <FooterLink href="#">Tantangan Koding</FooterLink>
-              <FooterLink href="#">Sharing Session</FooterLink>
-              <FooterLink href="#">Workshop</FooterLink>
+              <FooterLink href="#">Video Gokil</FooterLink>
+              <FooterLink href="#">Artikel Santuy</FooterLink>
+              <FooterLink href="#">Tantangan Ngoding</FooterLink>
+              <FooterLink href="#">Ngobrol Bareng Pro</FooterLink>
               <FooterLink href="#">Kelas Online</FooterLink>
+              <FooterLink href="#">Buku Digital</FooterLink>
             </ul>
           </div>
           
           <div className="animate-fade-in" style={{animationDelay: '400ms'}}>
-            <h4 className="font-bold mb-4 dark:text-white">Bahasa Pemrograman</h4>
+            <h4 className="font-bold mb-4 dark:text-white">Bahasa Favorit</h4>
             <div className="flex flex-wrap gap-2">
               <LanguageTag>PHP</LanguageTag>
               <LanguageTag>JavaScript</LanguageTag>
@@ -63,7 +65,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-100 dark:border-gray-800 pt-8 mt-8">
           <p className="text-center text-gray-500 dark:text-gray-400 text-sm">
-            © 2023 IMPHNEN - Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. All rights reserved.
+            © {currentYear} IMPHNEN - Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. All rights reserved. Made with ❤️ and ☕
           </p>
         </div>
       </div>
