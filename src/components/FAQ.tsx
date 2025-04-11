@@ -11,32 +11,32 @@ const faqData = [
   {
     question: "Apa itu komunitas IMPHNEN?",
     answer:
-      "IMPHNEN adalah komunitas programmer Indonesia yang bertujuan untuk membantu semua orang belajar pemrograman dengan cara yang menyenangkan dan tidak membingungkan. Nama kami kepanjangan dari Ingin Menjadi Programmer Handal, Namun Enggan Ngoding."
+      "IMPHNEN adalah komunitas programmer Indonesia yang dibentuk oleh orang-orang yang terlalu malas untuk benar-benar belajar coding. Nama kami kepanjangan dari Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. Jadi jangan heran kalau kita semua nggak bisa ngoding beneran."
   },
   {
     question: "Apakah saya harus memiliki latar belakang IT untuk bergabung?",
     answer:
-      "Tidak perlu! Komunitas kami terbuka untuk siapa saja, dari pemula yang belum pernah coding hingga profesional yang sudah berpengalaman. Kami memiliki materi dan sesi khusus untuk berbagai tingkatan."
+      "Justru semakin tidak paham IT, semakin cocok bergabung dengan kami! Komunitas kami penuh dengan orang yang berpura-pura paham programming padahal hanya jago copy-paste dari Stack Overflow. Daftar sekarang dan rasakan kebingungan bersama!"
   },
   {
     question: "Bagaimana cara bergabung dengan komunitas IMPHNEN?",
     answer:
-      "Kamu dapat bergabung dengan komunitas kami melalui grup Facebook, server Discord, atau mengikuti Instagram kami. Semua link tersebut tersedia di bagian Komunitas di website ini."
+      "Caranya gampang banget, tinggal ikuti Instagram kami terus ghosting. Atau masuk grup Discord terus diem aja. Paling efektif sih, bergabung dengan grup Facebook lalu komen 'minta pencerahan suhu' di setiap postingan tanpa pernah membaca dokumentasinya."
   },
   {
     question: "Apakah semua materi dan event IMPHNEN gratis?",
     answer:
-      "Sebagian besar materi dasar dan diskusi di komunitas kami gratis. Untuk workshop intensif dan beberapa kelas khusus mungkin ada biaya untuk menutupi operasional, tetapi kami selalu berusaha menjaga agar biayanya terjangkau."
+      "Tentu saja tidak! Kami menyediakan materi gratis yang isinya hanya dasar-dasar yang bisa kamu googling sendiri. Untuk materi yang agak berguna sedikit, kamu perlu bayar biaya yang tidak masuk akal. Bisnis adalah bisnis, bro!"
   },
   {
     question: "Bahasa pemrograman apa saja yang dibahas di IMPHNEN?",
     answer:
-      "Kami membahas berbagai bahasa pemrograman populer seperti JavaScript, PHP, Python, HTML, CSS, dan banyak lagi. Forum diskusi kami juga terbuka untuk bahasa pemrograman apapun yang ingin didiskusikan."
+      "Semua bahasa pemrograman yang populer 5 tahun yang lalu. Kami bangga karena masih mengajarkan PHP versi 5 dan Java 6. Jangan tanya soal bahasa-bahasa modern, kami belum sempat update kurikulum sejak 2015."
   },
   {
     question: "Bagaimana jika saya memiliki pertanyaan teknis?",
     answer:
-      "Kamu dapat mengajukan pertanyaan di grup Facebook atau server Discord kami. Komunitas kami sangat aktif dan biasanya akan memberikan jawaban dalam waktu singkat."
+      "Ajukan saja di grup dan bersiaplah untuk diabaikan selama beberapa hari. Atau bahkan lebih seru, siap-siap dikatain 'itu kan gampang, masa gitu aja nggak bisa?' tanpa dikasih solusi. Inilah kehangatan komunitas IMPHNEN!"
   },
 ];
 

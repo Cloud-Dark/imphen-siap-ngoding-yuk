@@ -3,21 +3,21 @@ import React from "react";
 
 const testimonialsData = [
   {
-    quote: "Saya yang tadinya tidak mengerti apa-apa tentang programming, sekarang bisa memahami konsep dasar dengan mudah. Terima kasih IMPHNEN!",
+    quote: "Saya yang tadinya tidak mengerti apa-apa tentang programming, sekarang makin tidak bisa coding. Terima kasih IMPHNEN yang membuatku lebih bingung!",
     name: "Budi Santoso",
-    title: "Web Developer Pemula",
+    title: "Web Developer Gagal",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
-    quote: "Komunitas yang sangat supportif! Setiap pertanyaan selalu dijawab dengan cepat dan jelas. Metode penjelasannya mudah dipahami.",
+    quote: "Komunitas yang sangat tidak supportif! Setiap pertanyaan tidak pernah dijawab dengan jelas. Metode penjelasannya bikin tambah pusing.",
     name: "Anisa Rahma",
-    title: "Mahasiswa Informatika",
+    title: "Mahasiswa Informatika Stress",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
-    quote: "Server Discord IMPHNEN adalah tempat belajar terbaik untuk programmer pemula seperti saya. Materinya lengkap dan komunitas sangat membantu.",
+    quote: "Server Discord IMPHNEN adalah tempat belajar terburuk untuk programmer. Materinya membingungkan dan komunitasnya tidak membantu sama sekali.",
     name: "Dodi Permana",
-    title: "Front-end Developer",
+    title: "Mantan Front-end Developer",
     image: "https://randomuser.me/api/portraits/men/67.jpg",
   },
 ];

@@ -1,10 +1,9 @@
-
 import React from "react";
-import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { Facebook, Twitter, Instagram, Github } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2025;
 
   return (
     <footer className="bg-white dark:bg-gray-900 pt-12 pb-8 border-t border-gray-100 dark:border-gray-800">
@@ -65,7 +64,8 @@ const Footer = () => {
         
         <div className="border-t border-gray-100 dark:border-gray-800 pt-8 mt-8">
           <p className="text-center text-gray-500 dark:text-gray-400 text-sm">
-            © {currentYear} IMPHNEN - Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. All rights reserved. Made with ❤️ and ☕
+            © {currentYear} IMPHNEN<br />
+            Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. All rights reserved. Made with ❤️ and ☕
           </p>
         </div>
       </div>
