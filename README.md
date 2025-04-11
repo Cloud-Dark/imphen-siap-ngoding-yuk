@@ -1,73 +1,112 @@
-# Welcome to your Lovable project
 
-## Project info
+# IMPHNEN  
+_Ingin Menjadi Programmer Handal, Namun Enggan Ngoding._
 
-**URL**: https://lovable.dev/projects/0448f869-9091-4795-830f-88236bd3db1e
+![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)
+![Mental Failing](https://img.shields.io/badge/mental-failing-red)
+![Commit Quality](https://img.shields.io/badge/commit-aja_dulu-blue)
+![Ngoding Spirit](https://img.shields.io/badge/spirit-tinggal_sisa-grey)
 
-## How can I edit this code?
+> Tempat berkumpulnya para pejuang coding yang cita-citanya tinggi, tapi effort-nya minim.  
+> Mau jago? Mau kerja remote? Mau gaji dolar? Tapi koding aja males? Wah, pas banget lo di sini.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Apa Itu IMPHNEN?
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0448f869-9091-4795-830f-88236bd3db1e) and start prompting.
+IMPHNEN bukan sekedar project. Ini gaya hidup.  
+Project ini terinspirasi dari realita pahit kehidupan programmer Indonesia:  
+*Pengen bisa ngoding tapi ngoding aja ogah.*
 
-Changes made via Lovable will be committed automatically to this repo.
+Website ini dibuat khusus buat lo yang:
+- Suka liat tutorial tapi nggak pernah praktek.
+- Gabung komunitas cuma buat nyari template jawaban.
+- Nanya di forum tapi baper kalo dibacotin.
+- Dan tentu saja... kolektor repository tanpa pernah di-run.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Fitur (yang sebenernya ga terlalu guna)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🚀 Belajar tanpa coding (alias liat doang)
+- 💬 Forum yang isinya lebih banyak canda daripada solusi
+- 🎥 Tutorial membingungkan biar makin pusing
+- 🎭 Komunitas anti-support
+- 🥴 Event & Workshop biar keliatan produktif padahal scrolling IG
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Demo Project
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Kebetulan gw males ngoding, jadinya pakai AI.  
+Mau liat hasilnya? Nih link demonya:  
 
-# Step 3: Install the necessary dependencies.
+👉 [https://imphen-siap-ngoding-yuk.lovable.app/](https://imphen-siap-ngoding-yuk.lovable.app/)
+
+---
+
+## Stack Teknologi (Biar Kayak Keren)
+
+- Vite + React + TypeScript (padahal cuma buat halaman pamer)
+- TailwindCSS (karena biar gampang copas style)
+- Shadcn UI (biar keliatan kekinian)
+- Radix UI (elemen banyak, dipake dikit)
+- React Query, Zod, Hook Form, sonner, lucide-react (Biar package.json keliatan berat)
+- Dan tentunya... banyak library lain yang bikin `node_modules` lo gendut
+
+---
+
+## Cara Install (buat yang bener-bener mau nyoba)
+
+```bash
+# Step 1: Clone project ini dulu
+git clone https://github.com/Cloud-Dark/imphen-siap-ngoding-yuk.git
+
+# Step 2: Masuk ke dalam folder project
+cd imphen-siap-ngoding-yuk
+
+# Step 3: Install semua dependency biar makin berat
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Jalanin project ini sambil mikir "Ngapain gue install beginian ya?"
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Screenshot (Karena kebetulan gw udah nggak males coding lagi)
 
-**Use GitHub Codespaces**
+| Home Page | Detail Page |
+|-----------|-------------|
+| ![image](https://github.com/user-attachments/assets/2bb7658c-976f-4a46-90bf-7896dfda4b90) | ![image](https://github.com/user-attachments/assets/ed91678a-32c4-44f5-8371-83f2833bca67)|
+|![image](https://github.com/user-attachments/assets/25619b3a-a10a-49af-acbc-a3d36f6c7810)|![image](https://github.com/user-attachments/assets/f93ba85c-21e3-4728-8ba2-4cf028721ebe)|
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Credits
 
-## How can I deploy this project?
+Special thanks buat:
+- Semua developer yang ngoding setengah hati
+- Komunitas toxic yang selalu ready ngegas
+- StackOverflow expired
+- Copas-an abadi
+- AI & Copilot, penyelamat orang malas
 
-Simply open [Lovable](https://lovable.dev/projects/0448f869-9091-4795-830f-88236bd3db1e) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes it is!
+MIT (Monggo Install Terus), dipake suka-suka, bosen tinggal uninstall.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Pesan Terakhir
+
+Kalau setelah liat project ini lo malah makin males ngoding...  
+Selamat, lo bener-bener anak IMPHNEN sejati.
+
+---
+
+> "Ngoding itu penting, tapi scroll TikTok itu healing."
